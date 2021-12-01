@@ -180,13 +180,17 @@ font-weight: bold;
 .flexContainer {
     display: flex;
     align-items: center;
-    justify-items: flex-start;
+    justify-content: space-around;
     flex-direction: row;
 }
 .flexBox {
     width: 33%;
     margin: 20px;
-    padding: 10px;
-   
+    padding: 20px;
     color: #ededed;
+}
+img {
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;
 }
