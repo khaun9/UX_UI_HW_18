@@ -172,18 +172,21 @@ button:hover {
 }
 
 /* My UX Skills Section */
-h1 {
+h2 {
 text-align: center;
+color: #ededed;
+font-weight: bold;
 }
 .flexContainer {
     display: flex;
     align-items: center;
     justify-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
 }
 .flexBox {
     width: 33%;
     margin: 20px;
     padding: 10px;
-    outline: 3px solid black;
+   
+    color: #ededed;
 }
